@@ -1,7 +1,247 @@
-.App {
+/* .App {
   text-align: center;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  background-color: #fdfdfd;
+  font-family: 'Tajawal', sans-serif;
+}
+
+
+/* ----------Start Navbar------------ */
+
+.App-header {
+  width: 100%;
+  height: 80px;
+  padding: 10px 150px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.074);
+}
+
+.logo {
+  position: absolute;
+  height: 45px;
+  right: 8.5%;
+
+  cursor: pointer;
+}
+
+ul {
+      width: 650px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-right: 150px;
+}
+
+li{
+    list-style: none;
+    /* position: relative; */
+    cursor: pointer;
+}
+li a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  position: relative;
+}
+
+li a:hover{
+  color: rgb(48, 122, 201);
+}
+
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transition: all .3s;
+  background: rgb(48, 122, 201) ;
+}
+
+a:hover::after {
+
+  width: 100%;
+  transform: scaleX(1);
+}
+
+
+.btn {
+  font-weight: 700;
+  border: none;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  right: 10%;
+  box-shadow: 0 2px 15px rgba(48, 122, 201, 0.435);
+  background: rgb(48, 122, 201);
+}
+.btn:hover {
+  background: rgb(35, 88, 144);
+}
+
+
+/* ----------End Navbar----------- */
+
+
+/*  ---------Start Content Section------------ */
+.banner {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 115px 150px 0px 150px;
+  justify-content: space-between;
+  
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  line-height: 2;
+}
+span{
+    font-weight: 700;
+    color: rgb(48, 122, 201);
+}
+.right p{
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.social{
+  display: flex;
+  justify-content: start;
+  position: relative;
+  top: 70px;
+
+}
+
+.social .line {
+    width: 290px;
+    height: 1px;
+    background: rgb(181, 181, 181);
+    margin-top: 20px;
+}
+
+
+
+
+.icon{
+  margin: 0 14px;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+
+.left{
+  display: flex;
+  justify-content: row;
+}
+
+.student {
+  width: 100%;
+  height: 600px;
+}
+
+
+
+
+.iconsStore{
+  display: flex;
+  margin-left: 150px;
+
+
+}
+.store {
+  height: 40px;
+  cursor: pointer;
+}
+.google{
+  padding-left: 25px;
+}
+
+
+
+/*  ---------End Content Section------------ */
+
+
+
+/* ----------Start  Footer Section---------- */
+
+.footer {
+  background-color:  #047ec415;
+  color: #111;
+  font-size: 18px;
+  height: 50px;
+  padding: 5px 150px;
+  margin-top: 80px;
+}
+
+
+.footerCon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 0.5%;
+}
+
+
+.footerCon .policy {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s ease;
+}
+
+.footerCon .policy:hover {
+  color: rgb(48, 122, 201);
+  border-bottom: 1px solid rgb(48, 122, 201);
+}
+
+/* ----------End  Footer Section--------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +275,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
