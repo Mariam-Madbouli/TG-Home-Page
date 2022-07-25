@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TG-Home-Page/static/css/main.c1afc719.css",
+    "main.js": "/TG-Home-Page/static/js/main.4db9ceac.js",
+    "static/js/787.fb98612f.chunk.js": "/TG-Home-Page/static/js/787.fb98612f.chunk.js",
+    "static/media/student-02.svg": "/TG-Home-Page/static/media/student-02.34df4552f39dbfed6a5977ffe604ec00.svg",
+    "static/media/app store.svg": "/TG-Home-Page/static/media/app store.960d3b1dd11af63c6616ecc142f38b54.svg",
+    "static/media/google store.svg": "/TG-Home-Page/static/media/google store.171f874c81010f4a7d97677fbaa8b233.svg",
+    "static/media/LOGO.svg": "/TG-Home-Page/static/media/LOGO.f87a4154c33b1e01cd50ced32d46d983.svg",
+    "static/media/telegram.svg": "/TG-Home-Page/static/media/telegram.fda21c66b6d7b30460a121352f2a5537.svg",
+    "static/media/linkedin.svg": "/TG-Home-Page/static/media/linkedin.abf3ede362d6c7a365ba9afdb726c605.svg",
+    "static/media/facebook.svg": "/TG-Home-Page/static/media/facebook.50c61211dcf448c6ce320d312271a4e6.svg",
+    "index.html": "/TG-Home-Page/index.html",
+    "main.c1afc719.css.map": "/TG-Home-Page/static/css/main.c1afc719.css.map",
+    "main.4db9ceac.js.map": "/TG-Home-Page/static/js/main.4db9ceac.js.map",
+    "787.fb98612f.chunk.js.map": "/TG-Home-Page/static/js/787.fb98612f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1afc719.css",
+    "static/js/main.4db9ceac.js"
+  ]
+}
